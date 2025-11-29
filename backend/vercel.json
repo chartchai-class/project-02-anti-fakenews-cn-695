@@ -8,22 +8,16 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "server.js"
+      "handle": "filesystem",
+      "src": "/(.*)",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
       "dest": "server.js"
     }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "outputDirectory": "",
-  "functions": {
-    "server.js": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  }
+  "buildCommand": "echo \"构建完成\"",
+  "installCommand": "npm install",
+  "outputDirectory": "."
 }
