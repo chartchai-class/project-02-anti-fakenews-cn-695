@@ -4,7 +4,7 @@
 |--------------|-------------------------------|
 | Course Name  | SE331 Component-Based Software Development |
 | Team Name    | 695                           |
-| Submission Phase | Term Project (First Half) |
+| Submission Phase | Term Project |
 | Deployment Platform | Vercel |
 
 ## Team Members Information
